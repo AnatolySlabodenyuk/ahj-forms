@@ -1,13 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Popovers</title>
 </head>
 <body>
-<h1>Hello, from Netology!</h1>
-<img src="img/netology.svg" alt="Netology Logo">
+  <div class="container">
+    <h1>Popover Widget</h1>
+
+    <div class="buttons-row">
+      <button
+        class="btn"
+        data-toggle="popover"
+        data-title="Первый поповер"
+        data-content="Это текст первого поповера. Он показывается сверху."
+      >
+        Кнопка 1
+      </button>
+
+      <button
+        class="btn"
+        data-toggle="popover"
+        data-title="Второй поповер"
+        data-content="Это текст второго поповера с другим содержимым."
+      >
+        Кнопка 2
+      </button>
+
+      <button
+        class="btn"
+        data-toggle="popover"
+        data-title="Третий поповер"
+        data-content="Нажмите снова, чтобы скрыть этот поповер."
+      >
+        Кнопка 3
+      </button>
+    </div>
+  </div>
 </body>
 </html>
