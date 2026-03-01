@@ -7,7 +7,7 @@ describe("Popover", () => {
     document.body.innerHTML = "";
     anchor = document.createElement("button");
     anchor.textContent = "Click me";
-    document.body.appendChild(anchor);
+    document.body.append(anchor);
   });
 
   test("show() добавляет .popover в document.body", () => {

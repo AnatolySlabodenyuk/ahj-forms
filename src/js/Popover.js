@@ -10,7 +10,7 @@ export default class Popover {
     this.element = document.createElement("div");
     this.element.classList.add("popover");
     this.element.innerHTML = `<div class="popover-header">${this.title}</div><div class="popover-body">${this.content}</div>`;
-    document.body.appendChild(this.element);
+    document.body.append(this.element);
 
     const anchorRect = this.anchor.getBoundingClientRect();
     const popoverWidth = this.element.offsetWidth;
