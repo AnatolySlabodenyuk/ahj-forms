@@ -85,3 +85,6 @@ typings/
 # Claude Code
 .claude/
 CLAUDE.md
+
+# JetBrains IDEs
+.idea/

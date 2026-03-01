@@ -7,8 +7,8 @@ export default class Popover {
   }
 
   show() {
-    this.element = document.createElement('div');
-    this.element.classList.add('popover');
+    this.element = document.createElement("div");
+    this.element.classList.add("popover");
     this.element.innerHTML = `<div class="popover-header">${this.title}</div><div class="popover-body">${this.content}</div>`;
     document.body.appendChild(this.element);
 
@@ -17,7 +17,10 @@ export default class Popover {
     const popoverHeight = this.element.offsetHeight;
 
     const left =
-      anchorRect.left + window.scrollX + anchorRect.width / 2 - popoverWidth / 2;
+      anchorRect.left +
+      window.scrollX +
+      anchorRect.width / 2 -
+      popoverWidth / 2;
     const top = anchorRect.top + window.scrollY - popoverHeight - 8;
 
     this.element.style.left = `${left}px`;
