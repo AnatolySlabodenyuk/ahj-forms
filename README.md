@@ -1,23 +1,25 @@
-![CI](https://github.com/AnatolySlabodenyuk/netology-ahj-env/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/AnatolySlabodenyuk/ahj-forms/actions/workflows/web.yml/badge.svg)
 
-# Netology AHJ — Environment Setup
+# AHJ Forms — Popover Widget
 
-Homework project for the "Working Environment" lesson.
+Домашнее задание к занятию "Работа с HTML-формами".
 
-## Stack
+[GitHub Pages](https://anatolyslabodenyuk.github.io/ahj-forms/)
 
-- Webpack 5
-- Babel
-- ESLint + Prettier
-- Jest
-- GitHub Actions CI/CD
-- GitHub Pages
+## Задание 1: Popovers (обязательная)
+
+Bootstrap-style popover виджет на чистом JS без jQuery.
+
+- Показывается сверху над кнопкой
+- Центрируется горизонтально
+- Позиционирование через `px` (без CSS transforms)
+- Тесты на JSDOM
 
 ## Scripts
 
 ```bash
 yarn start       # dev server
 yarn build       # production build
-yarn lint        # lint & fix
 yarn test        # run tests
+yarn lint        # lint & fix
 ```
